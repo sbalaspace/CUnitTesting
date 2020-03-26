@@ -1,3 +1,0 @@
-check_calc 0 0
----
-check_calc

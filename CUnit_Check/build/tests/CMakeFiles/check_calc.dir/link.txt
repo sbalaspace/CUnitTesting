@@ -1,1 +1,0 @@
-/usr/bin/cc   -rdynamic CMakeFiles/check_calc.dir/check_calc.c.o  -o check_calc  -lcheck ../src/libcalc.a 
