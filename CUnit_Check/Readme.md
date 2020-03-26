@@ -2,7 +2,10 @@
 
 This project contains examples for unit testing C code with check and CMake
 
-To compile the code and run the test cases simply type ./clean-cmake.sh
+To compile the code and run the test cases simply type 
+```
+./clean-cmake.sh
+```
 
 You need the following dependencies for the project to work
 1. Check
@@ -10,6 +13,7 @@ You need the following dependencies for the project to work
 
 The project directory structure is as follows
 
+```
 .
 |-- CMakeLists.txt
 |-- CMakeModules
@@ -27,7 +31,7 @@ The project directory structure is as follows
 `-- tests
     |-- CMakeLists.txt
     `-- check_calc.c
-
+```
 
 There is a top level CMakeLists.txt file
 
@@ -47,7 +51,9 @@ The clean-cmake.sh cleans all the make files and builds them again. It also runs
 
 
 
-The following rferences where very useful in creating this setup
+The following references where very useful in creating this setup
+
+## References
 
 For writing unit tests with Check
 http://www.ccs.neu.edu/home/skotthe/classes/cs5600/fall/2015/labs/intro-check.html
