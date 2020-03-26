@@ -1,0 +1,21 @@
+Start testing: Mar 26 06:30 UTC
+----------------------------------------------------------
+1/1 Testing: check_calc
+1/1 Test: check_calc
+Command: "/mnt/Win10/Vshare/Study/C_UnitTest/check_tut/tut1/build/tests/check_calc"
+Directory: /mnt/Win10/Vshare/Study/C_UnitTest/check_tut/tut1/build/tests
+"check_calc" start time: Mar 26 06:30 UTC
+Output:
+----------------------------------------------------------
+Running suite(s): CalcTest
+75%: Checks: 4, Failures: 1, Errors: 0
+/mnt/Win10/Vshare/Study/C_UnitTest/check_tut/tut1/tests/check_calc.c:50:F:Core:test_calc_add_fail:0: Assertion 'add(calc) > 3.9999 && calc_input2(calc) < 2.0001' failed
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"check_calc" end time: Mar 26 06:30 UTC
+"check_calc" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Mar 26 06:30 UTC
