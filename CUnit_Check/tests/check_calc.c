@@ -36,7 +36,7 @@ START_TEST(test_calc_add) {
 
   calc = create_input(1.0, 2.0);
 
-  ck_assert(add(calc) > 2.9999 && calc_input2(calc) < 3.0001);
+  ck_assert(add(calc) > 2.9999 && add(calc) < 3.0001);
 
   free_calc(calc);
 } END_TEST
@@ -47,7 +47,7 @@ START_TEST(test_calc_add_fail) {
 
   calc = create_input(1.0, 2.0);
 
-  ck_assert(add(calc) > 3.9999 && calc_input2(calc) < 2.0001);
+  ck_assert(add(calc) > 3.9999 && add(calc) < 2.0001);
 
   free_calc(calc);
 } END_TEST
