@@ -1,0 +1,61 @@
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc - works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ - works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found CMocka: /usr/lib/libcmocka.so  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /mnt/Win10/Vshare/Study/C_UnitTest/cmocka_tut/cmake_calc/build
+make[1]: Entering directory '/mnt/Win10/Vshare/Study/C_UnitTest/cmocka_tut/cmake_calc/build'
+make[2]: Entering directory '/mnt/Win10/Vshare/Study/C_UnitTest/cmocka_tut/cmake_calc/build'
+Scanning dependencies of target calc
+make[2]: Leaving directory '/mnt/Win10/Vshare/Study/C_UnitTest/cmocka_tut/cmake_calc/build'
+make[2]: Entering directory '/mnt/Win10/Vshare/Study/C_UnitTest/cmocka_tut/cmake_calc/build'
+[ 25%] Building C object src/CMakeFiles/calc.dir/calc.c.o
+[ 50%] Linking C static library libcalc.a
+make[2]: Leaving directory '/mnt/Win10/Vshare/Study/C_UnitTest/cmocka_tut/cmake_calc/build'
+[ 50%] Built target calc
+make[2]: Entering directory '/mnt/Win10/Vshare/Study/C_UnitTest/cmocka_tut/cmake_calc/build'
+Scanning dependencies of target cmocka_calc
+make[2]: Leaving directory '/mnt/Win10/Vshare/Study/C_UnitTest/cmocka_tut/cmake_calc/build'
+make[2]: Entering directory '/mnt/Win10/Vshare/Study/C_UnitTest/cmocka_tut/cmake_calc/build'
+[ 75%] Building C object tests/CMakeFiles/cmocka_calc.dir/cmocka_calc.c.o
+[100%] Linking C executable cmocka_calc
+make[2]: Leaving directory '/mnt/Win10/Vshare/Study/C_UnitTest/cmocka_tut/cmake_calc/build'
+[100%] Built target cmocka_calc
+make[1]: Leaving directory '/mnt/Win10/Vshare/Study/C_UnitTest/cmocka_tut/cmake_calc/build'
+Test project /mnt/Win10/Vshare/Study/C_UnitTest/cmocka_tut/cmake_calc/build
+    Start 1: cunit_calc
+1/1 Test #1: cunit_calc .......................***Failed    0.00 sec
+[==========] Running 4 test(s).
+[ RUN      ] test_calc_input1
+[       OK ] test_calc_input1
+[ RUN      ] test_calc_input2
+[       OK ] test_calc_input2
+[ RUN      ] test_calc_add
+[       OK ] test_calc_add
+[ RUN      ] test_calc_add_fail
+-1.000000 != 3.000000
+[   LINE   ] --- /mnt/Win10/Vshare/Study/C_UnitTest/cmocka_tut/cmake_calc/tests/cmocka_calc.c:53: error: Failure![  FAILED  ] test_calc_add_fail
+[==========] 4 test(s) run.
+[  PASSED  ] 3 test(s).
+[  FAILED  ] 1 test(s), listed below:
+[  FAILED  ] test_calc_add_fail
+
+
+0% tests passed, 1 tests failed out of 1
+
+Total Test time (real) =   0.00 sec
+
+The following tests FAILED:
+	  1 - cunit_calc (Failed)
